@@ -144,12 +144,12 @@ main{
                         h3{
                             display: flex;
                             align-items: center;
-                            font-size: 12px;
+                            font-size: 14px;
 
                         }
                     }
                     p{
-                        font-size: 10px;
+                        font-size: 12px;
                     }
                 }
             }
@@ -263,8 +263,8 @@ footer{
     }
     .whatsapp_icon{
         position: fixed;
-        right: 16px;
-        bottom: 16px;
+        right: 30px;
+        bottom: 40px;
         z-index: 2;
         transition:  0.5s ease;
         svg{
@@ -293,34 +293,8 @@ footer{
             ul {
                 display: grid;
                 gap: 10px;
-                grid-template-columns: repeat(6, 1fr);
+                grid-template-columns: repeat(3, 1fr);
                 grid-template-rows: repeat(2, 1fr);
-            }
-            .first {
-                grid-column: span 2 / span 2;
-            }
-
-            .second {
-                grid-column: span 2 / span 2;
-                grid-column-start: 3;
-            }
-
-            .third{
-                grid-column: span 2 / span 2;
-                grid-column-start: 5;
-            }
-
-            .fourth {
-                grid-column: span 3 / span 3;
-                grid-row-start: 2;
-                aspect-ratio: 8/3;
-            }
-
-            .fifth {
-                grid-column: span 3 / span 3;
-                grid-column-start: 4;
-                grid-row-start: 2;
-                aspect-ratio: 8/3;
             }
         }
         .us_company{
