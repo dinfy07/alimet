@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
 Sitemap: https://alimet.kz/sitemap.xml
+
+google-site-verification=GRNYDd5Xd8VM4c8eXBCAtFiAf2vU_uW2TWuH4BJFJCs
